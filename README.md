@@ -1,6 +1,11 @@
 # Advice Generator App
 
+## Desktop Design
+
 ![Design preview for the Advice Generator app on desktop](./design/desktop-design.jpg)
+
+## Mobile Design
+
 ![Design preview for the Advice Generator app on mobile](./design/mobile-design.jpg)
 
 ## Welcome! 👋
