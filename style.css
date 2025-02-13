@@ -1,0 +1,91 @@
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+  --Weight: 800;
+  --Family: "Manrope", serif;
+  --Quote-size: 28px;
+}
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--Family);
+  font-weight: var(--Weight);
+}
+.parent {
+  background-color: var(--Dark-Blue);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--Dark-Grayish-Blue);
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  padding: 50px;
+  border-radius: 15px;
+}
+q {
+  font-size: var(--Quote-size);
+  text-align: center;
+  color: var(--Light-Cyan);
+  width: 450px;
+  margin-bottom: 30px;
+}
+h4 {
+  letter-spacing: 3px;
+  color: var(--Neon-Green);
+  margin-bottom: 30px;
+}
+.pattern {
+  margin-bottom: 20px;
+}
+.icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--Neon-Green);
+  bottom: -11%;
+}
+.icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon:hover {
+  cursor: pointer;
+  box-shadow: var(--Neon-Green) 0 0 35px;
+}
+@media (max-width: 1439px) {
+  .container {
+    width: 340px;
+    padding: 10px;
+  } 
+  h4{
+    margin-top: 30px;
+  }
+  q {
+    width: 320px;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .pattern{
+    margin-bottom: 50px;
+  }
+}
