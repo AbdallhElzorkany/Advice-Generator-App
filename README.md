@@ -4,7 +4,7 @@
 
 Thanks for checking out this Front-End app.
 
-Website Link : [website link](https://abdallhelzorkany.github.io/Advice-Generator-App/)
+Website Link : [Advice Generator](https://abdallhelzorkany.github.io/Advice-Generator-App/)
 
 ## The App
 
