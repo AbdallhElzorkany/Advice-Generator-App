@@ -15,13 +15,4 @@ Users is able to:
 - View the optimal layout for the app depending on their device's screen size
 - Generate a new piece of advice by clicking the dice icon
 
-## Desktop Design
-
-![Design preview for the Advice Generator app on desktop](./design/desktop-design.jpg)
-
-## Mobile Design
-
-![Design preview for the Advice Generator app on mobile](./design/mobile-design.jpg)
-
-
 
